@@ -225,6 +225,7 @@ a:focus {
     border: none;
     box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.04);
     margin: 0 !important;
+    margin-left: 20px !important;
 }
 
 .navbar-default .navbar-brand {

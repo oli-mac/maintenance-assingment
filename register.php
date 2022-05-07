@@ -37,7 +37,7 @@ if(isset($_POST['submit'])){
     <link rel="stylesheet" href="register.css?v=<?php echo time(); ?>">  </head>
   <body>
     <div class="container">
-      <center><div class="title">Registration</div></center>
+      <center><div class="title">Enebla Steak Registration</div></center>
       <div class="content">
         <form action="" method="POST" >
           <div class="user-details">
@@ -66,7 +66,7 @@ if(isset($_POST['submit'])){
               <input type="text" name="city" placeholder="Enter Your City" required>
             </div>
           </div>
-          <div class="role-details">
+          <!-- <div class="role-details">
             <input type="radio" name="role" id="role-1"value="Admin">
             <input type="radio" name="role" id="role-2" value="User">
             <input type="radio" name="role" id="role-3" value="Manager">
@@ -85,7 +85,7 @@ if(isset($_POST['submit'])){
               <span class="gender">Manager</span>
               </label>
             </div>
-          </div>
+          </div> -->
 
 
           <div class="gender-details">
