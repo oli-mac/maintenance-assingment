@@ -821,3 +821,27 @@ footer strong {
   footer {text-align: center;}
 
 }
+
+#signup{
+  margin-left: .3em;
+}
+#login,#signup{
+  
+ font-weight: bold ;
+ border-radius: 3px;
+ border: 1px solid black;
+ padding: 0 1em;
+ box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+ position: relative;
+ top: .6em;
+ transition: all .5s ease-in-out !important;
+
+  
+}
+#login:hover,
+#signup:hover{
+  background: #c21500; /* fallback for old browsers */  
+  background: -webkit-linear-gradient(to left, #c21500 , #ffc500); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #c21500 , #ffc500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.8;
+}
