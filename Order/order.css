@@ -102,17 +102,7 @@ textarea{
 	cursor: pointer;
 	transition: .3s;
 }
-#home{
-	width: 100%;
-	padding: 0.5rem 1rem;
-	background-color: #d60404 !important;
-	color: #fff;
-	font-size: 1.1rem;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	transition: .3s;
-}
+/*  */
 .btn:hover{
     background-color: #27ae60;
 }

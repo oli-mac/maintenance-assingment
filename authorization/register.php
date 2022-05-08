@@ -66,26 +66,7 @@ if(isset($_POST['submit'])){
               <input type="text" name="city" placeholder="Enter Your City" required>
             </div>
           </div>
-          <!-- <div class="role-details">
-            <input type="radio" name="role" id="role-1"value="Admin">
-            <input type="radio" name="role" id="role-2" value="User">
-            <input type="radio" name="role" id="role-3" value="Manager">
-            <span class="role-title">Role</span>
-            <div class="category">
-              <label for="role-1">
-              <span class="rol one"></span>
-              <span class="gender">Admin</span>
-            </label>
-            <label for="role-2">
-              <span class="rol two"></span>
-              <span class="gender">Customer</span>
-            </label>
-            <label for="role-3">
-              <span class="rol three"></span>
-              <span class="gender">Manager</span>
-              </label>
-            </div>
-          </div> -->
+          
 
 
           <div class="gender-details">

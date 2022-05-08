@@ -18,7 +18,7 @@ $row = mysqli_fetch_array($result);
 
 
 if ($row['user_name'] == $user_name || $row['password'] == $password)  {
-  header("location: index.html");
+  header("location: ../index.html");
 } else {
     header("location: login.php");
 }
@@ -38,7 +38,7 @@ if ($row['user_name'] == $user_name || $row['password'] == $password)  {
     <title>Enebla Steak House| Login</title>
 
     
-    <link rel="stylesheet" href="./css/styles.css?v=<?php echo time(); ?>">  </head>
+    <link rel="stylesheet" href="./styles.css?v=<?php echo time(); ?>">  </head>
 
   </head>
   <body>
